@@ -64,15 +64,15 @@
             </div>
         </nav>
         <!-- Banner -->
-        <section class="container mx-auto mt-10">
-            <div class="hero h-[580px] rounded-3xl" style="background-image: url(images/banner.png)">
+        <section class="container max-sm:px-3 mx-auto py-6 md:py-10">
+            <div class="hero min-h-[580px] rounded-3xl" style="background-image: url(images/banner.png)">
                 <div class="hero-overlay bg-opacity-5 rounded-3xl"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="text-white">
                         <h1 class="mb-5 max-sm:text-3xl md:text-6xl font-bold">
                             End-to-End Travel with
                         </h1>
-                        <span class="mb-5 text-[#84cc16] max-sm:text-3xl md:text-5xl font-bold">S Paribahan</span>
+                        <span class="mb-5 text-[#4ffc34] max-sm:text-3xl md:text-5xl font-bold">P Paribahan</span>
                         <p class="my-5 max-sm:w-auto md:w-[660px]">
                             Step onto the bus, a vessel of exploration. As wheels roll, embark on a voyage through
                             unfamiliar landscapes. Each stop unveils new cultures, flavors, and faces. Embrace the
@@ -80,8 +80,8 @@
                             serenade you into the unknown.
                         </p>
                         <button class="mt-5">
-                            <a
-                                class="items-center border-2 duration-200 hover:bg-green-400 bg-[#84cc16] px-7 md:px-10 py-4 rounded-xl text-black text-xl font-medium">Buy
+                            <a href="#main-section"
+                                class="items-center duration-200 hover:bg-[#4ffc34] bg-[#1DD100] text-white px-7 md:px-10 py-4 rounded-xl max-sm:text-lg md:text-xl font-medium">Buy
                                 Tickets
                             </a>
                         </button>
@@ -141,8 +141,8 @@
         <section id="main-section" style="border-top-left-radius: 80px; border-top-right-radius: 80px"
             class="bg-[#F7F8F8] border-green-400 border-t-2 py-20">
             <div class="mt-10 text-center">
-                <h3 class="text-4xl font-bold mb-5">S Paribahan</h3>
-                <p class="text-xl max-sm:w-auto md:w-[660px] flex mx-auto">
+                <h3 class="text-2xl md:text-4xl font-bold mb-5">S Paribahan</h3>
+                <p class="md:text-xl text-[16px] max-sm:w-auto md:w-[660px] flex mx-auto">
                     Step onto the bus, where the journey transcends mere transportation. With each mile, discover the
                     beauty of diverse landscapes and cultures. Engage with fellow passengers, sharing stories and
                     laughter.
@@ -151,26 +151,31 @@
             <!-- Greenline -->
             <div class="container mx-auto py-14">
                 <div class="flex flex-col-reverse lg:flex-row bg-white text-black rounded-2xl">
-                    <div class="p-8 min-w-[75%]">
+                    <div class="max-sm:p-0 md:p-8 min-w-[75%]">
                         <div class="min-h-full flex flex-col justify-between">
-                            <div class="flex justify-between">
-                                <div class="flex items-center gap-4">
+                            <div class="flex max-sm:flex-col justify-between max-sm:p-3">
+                                <div class="flex max-sm:justify-center max-sm:mb-4 items-center gap-4">
                                     <div>
-                                        <img src="images/bus-logo.png" alt="" />
+                                        <img class="md:w-auto max-sm:w-6 max-sm:h-6" src="images/bus-logo.png" alt="" />
                                     </div>
                                     <div>
-                                        <p class="text-2xl font-bold mb-2">S Paribahan</p>
-                                        <p>Coach-009-WEB ! AC_Business</p>
+                                        <p class="max-sm:text-lg md:text-2xl font-bold mb-2">
+                                            BusByte Coach
+                                        </p>
+                                        <p class="max-sm:text-[14px]">
+                                            Coach-009-WEB ! AC_Business
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="flex gap-2 items-center bg-[#1DD10026] p-4 rounded-xl">
+                                <div
+                                    class="flex max-sm:justify-center gap-2 items-center bg-[#1DD10026] p-4 rounded-xl">
                                     <img class="w-7 h-w-7" src="images/seat-green.png" alt="" />
-                                    <h3 class="text-xl text-[#1DD100] font-medium inter">
+                                    <h3 class="max-sm:text-[14px] text-xl text-[#1DD100] font-medium inter">
                                         <span id="seat-left">40</span> Seats left
                                     </h3>
                                 </div>
                             </div>
-                            <div class="bg-[#F7F8F8] p-8 space-y-6 min-h-full mt-6 rounded-2xl">
+                            <div class="bg-[#F7F8F8] max-sm:p-4 md:p-8 space-y-6 min-h-full mt-6 rounded-2xl">
                                 <div class="flex justify-between border-b-2 border-dashed pb-4">
                                     <p>Route</p>
                                     <p class="font-medium">Dhaka - Sylhet</p>
@@ -180,7 +185,7 @@
                                     <p class="font-medium">9:00 PM</p>
                                 </div>
 
-                                <div class="flex justify-between">
+                                <div class="flex max-sm:flex-col gap-3 justify-between">
                                     <div class="bg-[#0307120D] p-4 rounded-lg">
                                         <p>Boarding Point - Laxmipur</p>
                                     </div>
@@ -205,9 +210,9 @@
                         <h2 class="text-center">Per Seat</h2>
                     </div>
                 </div>
-                <!-- Seat -->
+                <!-- Select Your Seat -->
                 <div class="bg-white rounded-2xl text-black mt-14">
-                    <div class="flex max-md:flex-col p-8 justify-between">
+                    <div class="flex max-md:flex-col max-sm:p-0 md:p-4 justify-between">
                         <div class="p-6 min-w-[60%] max-md:border-0 border-r-2 border-dashed border-gray-400">
                             <h2 class="font-medium text-2xl border-b-2 border-dashed border-gray-400 pb-6">
                                 Select Your Seat
@@ -224,7 +229,7 @@
                                     <p class="text-lg font-semibold text-[#1DD100]">Selected</p>
                                 </div>
                             </div>
-                            <!-- Ticket  -->
+                            <!-- Ticket -->
                             <div class="mt-8 inter">
                                 <div class="flex justify-end">
                                     <p
@@ -235,163 +240,203 @@
                                 <div class="mt-6 space-y-3">
                                     <div class="flex justify-between items-center">
                                         <p>A</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             A1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             A2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             A3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             A4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>B</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             B1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             B2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             B3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             B4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>C</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             C1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             C2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             C3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             C4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>D</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             D1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             D2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             D3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             D4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>E</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             E1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             E2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             E3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             E4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>F</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             F1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             F2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             F3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             F4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>G</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             G1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             G2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             G3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             G4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>H</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             H1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             H2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             H3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             H4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>I</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             I1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             I2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             I3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             I4
                                         </p>
                                     </div>
                                     <div class="flex justify-between items-center">
                                         <p>J</p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             J1
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             J2
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             J3
                                         </p>
-                                        <p class="bg-[#F7F8F8] px-6 lg:px-12 py-4 rounded-2xl cursor-pointer seat-add">
+                                        <p
+                                            class="bg-[#F7F8F8] md:px-6 lg:px-10 py-4 rounded-xl cursor-pointer seat-add max-sm:px-4 max-sm:py-3 hover:bg-[#1DD100] duration-200">
                                             J4
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-8 min-w-[40%]">
+                        <div class="max-sm:p-4 md:p-4 min-w-[40%]">
                             <h2 class="font-medium text-2xl border-b-2 border-dashed border-gray-400 pb-6">
                                 Select Your Seat
                             </h2>
-                            <!-- Calculate -->
-                            <div class="bg-[#F7F8F8] p-6 mt-6 space-y-5 inter rounded-xl">
+                            <!-- Calculate box -->
+                            <div class="bg-[#F7F8F8] p-4 lg:p-6 mt-6 space-y-5 inter rounded-xl">
                                 <div class="flex justify-between border-b-2 border-dashed border-gray-400 pb-2">
                                     <p class="font-medium text-lg">
                                         Seat
@@ -407,9 +452,10 @@
                                         <span id="total-price">0</span>
                                     </p>
                                 </div>
-                                <!-- Coupon -->
-                                <div class="p-3 flex justify-between rounded-lg bg-white">
-                                    <input id="coupon-input" class="pl-5 border focus:border-transparent rounded-sm"
+                                <!-- copupon code -->
+                                <div class="p-3 flex max-lg:flex-col justify-between rounded-lg bg-white">
+                                    <input id="coupon-input"
+                                        class="focus:border-transparent max-lg:text-[15px] max-lg:mb-4 max-lg:p-t-2 max-lg:p-b-2 rounded-sm outline-none"
                                         type="text" placeholder="Have any copupon?" />
                                     <button id="apply-btn" onclick="grandTotal()"
                                         class="bg-[#1DD100] px-5 py-3 text-white rounded-lg hover:bg-green-500 duration-300">
@@ -441,7 +487,7 @@
                                         placeholder="Enter your name" />
                                 </div>
                                 <button
-                                    class="w-full bg-[#1DD100] text-xl p-4 rounded-xl text-white font-bold hover:bg-green-500 duration-300">
+                                    class="bg-[#1DD100] hover:bg-green-500 duration-300 w-full text-xl p-4 rounded-xl text-white font-bold">
                                     Next
                                 </button>
                             </div>
@@ -452,7 +498,22 @@
         </section>
     </main>
     <footer>
-
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <aside>
+                <h1 class="text-2xl">Online Ticket</h1>
+                <p>Online Ticket is a digital platform to make your <br> daily commuting better.</p>
+            </aside>
+            <nav>
+                <h6 class="footer-title">Download Our App</h6>
+                <div class="grid grid-flow-col gap-4 text-xs">
+                    <a><img src="images/playstore.png" alt=""></a>
+                    
+                    <a>Get it on <br> Google play Store</a>
+                </div>
+                
+            </nav>
+           
+        </footer>
     </footer>
     <script src="Js/app.js"></script>
 </body>
