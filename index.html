@@ -452,8 +452,8 @@
                                         <span id="total-price">0</span>
                                     </p>
                                 </div>
-                                <!-- copupon code -->
-                                <div class="p-3 flex max-lg:flex-col justify-between rounded-lg bg-white">
+                                <!-- coupon -->
+                                <div id="coupon-div" class="p-3 flex max-lg:flex-col justify-between rounded-lg bg-white  ">
                                     <input id="coupon-input"
                                         class="focus:border-transparent max-lg:text-[15px] max-lg:mb-4 max-lg:p-t-2 max-lg:p-b-2 rounded-sm outline-none"
                                         type="text" placeholder="Have any copupon?" />
@@ -472,21 +472,35 @@
                             <!-- information -->
                             <div class="mt-8">
                                 <div class="pb-6">
-                                    <p class="pb-2 text-lg font-medium">Passenger Name*</p>
-                                    <input class="w-full p-4 border rounded-xl" type="text"
-                                        placeholder="Enter your name" />
-                                </div>
-                                <div class="pb-6">
-                                    <p class="pb-2 text-lg font-medium">Phone Number*</p>
-                                    <input class="w-full p-4 border rounded-xl" type="number"
-                                        placeholder="Enter your phone number" />
-                                </div>
-                                <div class="pb-6">
-                                    <p class="pb-2 text-lg font-medium">Email ID</p>
-                                    <input class="w-full p-4 border rounded-xl" type="email"
-                                        placeholder="Enter your name" />
-                                </div>
-                                <button
+                                    <dialog id="my_modal_3" class="modal">
+                                        <div class="modal-box">
+                                            <form method="dialog">
+                                                <button
+                                                    class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                            </form>
+                                            <div class="text-center bg-white rounded-2xl max-sm:p-8 md:p-14">
+                                                <div class="flex justify-center">
+                                                    <img src="images/success.png" alt="" />
+                                                </div>
+                                                <h3 class="text-xl mt-8 font-bold text-[#22c55e]">SUCCESS</h3>
+                                                <div class="my-6">
+                                                    <p class="font-semibold">
+                                                        Thank you for Booking Our Bus Seats. <br />
+                                                        We are working hard to find the best service and deals for you.
+                                                    </p>
+                                                    <p class="mt-3">
+                                                        Shortly you will find a confirmation in your email.
+                                                    </p>
+                                                </div>
+                                                <form method="dialog">
+                                                    <button style="border: 2px solid #16a34a"
+                                                        class="btn bg-white hover:text-green-300 rounded-full text-[#16a34a] border-2 max-sm:text-lg md:text-xl font-medium max-sm:px-auto md:px-8">
+                                                        Continue
+                                                    </button>
+                                                </form>
+                                            </div>
+                                    </dialog>
+                                <button id="btn-next" onclick="my_modal_3.showModal()"
                                     class="bg-[#1DD100] hover:bg-green-500 duration-300 w-full text-xl p-4 rounded-xl text-white font-bold">
                                     Next
                                 </button>
@@ -507,12 +521,12 @@
                 <h6 class="footer-title">Download Our App</h6>
                 <div class="grid grid-flow-col gap-4 text-xs">
                     <a><img src="images/playstore.png" alt=""></a>
-                    
+
                     <a>Get it on <br> Google play Store</a>
                 </div>
-                
+
             </nav>
-           
+
         </footer>
     </footer>
     <script src="Js/app.js"></script>
