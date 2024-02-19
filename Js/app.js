@@ -82,7 +82,7 @@ function grandTotal() {
     setInnerText("grand-total", discountedAmount);
     couponDivEl.classList.add("hidden");
   } else {
-    return alert("Please fill up valid Coupon");
+    return alert("Invalid Coupon");
   }
 }
 
